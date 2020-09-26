@@ -11,7 +11,20 @@ app.listen(3000, () => {
 });
 
 
-
 app.get('/', (req, res) => {
-    res.render('index')
+    
+    const blogs = [
+        {title: 'Bernie', snippet: "The revolution"},
+        {title: 'Jones', snippet: "The warrior"},
+
+    ];
+
+    res.render('index', {blogs: blogs});
+})
+
+app.get('/about', (req, res) => {
+    res.render('about')
+})
+app.get('/blogs/create', (req, res) => {
+    res.render('create')
 })
