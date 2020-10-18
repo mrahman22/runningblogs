@@ -26,16 +26,12 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 
-
-
 app.get("/", (req, res) => {
   res.redirect("/blogs");
 });
-
  
 app.use(aboutRoutes)
 app.use('/blogs', blogRoutes);
-
 
 app.use((req, res) => {
   res.status(404).render("404");

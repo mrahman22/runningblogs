@@ -5,14 +5,26 @@ body{
   padding: 0 20px;
   font-family: 'Noto Serif', serif;
   max-width: 1200px;
+  background-image: url('./pexels-sebastian-palomino-1955134.jpg');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
 }
+
+
+
 p, h1, h2, h3, a, ul{
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: #222;
+  color: white;
 }
-/* nav & footer styles */
+
+/* ======================================================================================================== */
+
+
+
+/* Nav and Footer Styling ================================================================================= */
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -32,9 +44,10 @@ nav li{
 }
 nav h1{
   font-size: 3em;
+  color:  #3399ff;
 }
 nav p, nav a{
-  color: #777;
+  color: white;
   font-weight: 300;
 }
 footer{
@@ -53,7 +66,40 @@ h3{
   margin-left: 20px;
 }
 
-/* index styles */
+
+/* Nav and Footer Styling ================================================================================= */
+
+
+
+
+/* All Blogs Styling ====================================================================================== */
+
+.single-blog h3 { 
+  text-align: center;
+  padding: 10px;
+  color: yellow;
+  font-weight: 900;
+}
+
+
+.single-blog {
+  border: solid 1px crimson;
+  margin: 20px;
+  padding: 15px;
+  
+}
+.snippet {
+  padding: 10px;
+}
+
+
+
+
+
+/* All Blogs Styling ====================================================================================== */
+
+
+
 
 
 /* details styles */
@@ -73,6 +119,8 @@ h3{
   cursor: pointer;
   box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
+
+
 
 
 
