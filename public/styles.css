@@ -3,13 +3,12 @@ body{
   max-width: 1200px;
   margin: 20px auto;
   padding: 0 20px;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Neucha', cursive;
   max-width: 1200px;
   background-image: url('./pexels-sebastian-palomino-1955134.jpg');
   background-repeat: no-repeat, repeat;
   background-position: center;
 }
-
 
 
 p, h1, h2, h3, a, ul{
@@ -50,11 +49,22 @@ nav p, nav a{
   color: white;
   font-weight: 300;
 }
-footer{
-  color: #777;
-  text-align: center;
-  margin: 80px auto 20px;
+
+nav a:hover {
+  color: tomato;
 }
+
+footer{
+  color: purple;
+  text-align: center;
+  font-size: 25px;
+  margin: 80px auto 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 h2{
   margin-bottom: 40px;
 }
@@ -82,17 +92,26 @@ h3{
 }
 
 
+.blogs h2 {
+   color: yellow;
+   font-size: 30px;
+}
+
+
 .single-blog {
   border: solid 1px crimson;
   margin: 20px;
   padding: 15px;
   
 }
+
+.single-blog:hover {
+  background-color: lightcoral;
+}
+
 .snippet {
   padding: 10px;
 }
-
-
 
 
 
@@ -100,6 +119,26 @@ h3{
 
 
 
+/* About Me Styling ====================================================================================== */
+
+.about {
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.about h2 {
+  text-align: center;
+  color: #3399ff;
+}
+
+
+
+
+
+
+/* Abour Me Styling ====================================================================================== */
 
 
 /* details styles */
